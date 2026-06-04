@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #fcab13;     
+  --color-bg: #0a0a0a;
+  --color-surface: #131313;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #909090;
+  --font-sans: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-sans);
+}
