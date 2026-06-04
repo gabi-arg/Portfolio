@@ -16,7 +16,7 @@ const experiences: Experience[] = [
   {
     id: 1,
     company: 'MailTeck Group',
-    logo: '/src/assets/logoMailTeck.jpg',
+    logo: './public/logoMailTeck.jpg',
     role: 'Frontend Developer - QA',
     type: 'Tiempo Completo',
     period: 'Noviembre 2025 - Abril 2026',
@@ -35,7 +35,7 @@ const experiences: Experience[] = [
   {
     id: 2,
     company: 'Social Learning',
-    logo: '/src/assets/logoSocialLearning.jpg',
+    logo: './public/logoSocialLearning.jpg',
     role: 'Frontend Developer Jr',
     type: 'Tiempo Completo',
     period: 'Junio 2024 - Marzo 2025',
@@ -53,7 +53,7 @@ const experiences: Experience[] = [
   {
     id: 3,
     company: 'Teclab Instituto Técnico Superior',
-    logo: '/src/assets/logoSocialLearning.jpg',
+    logo: './public/logoSocialLearning.jpg',
     role: 'Frontend Developer - Pasante',
     type: 'Pasantía',
     period: 'Abril - Mayo 2024',
