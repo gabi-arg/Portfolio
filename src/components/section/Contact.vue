@@ -64,7 +64,7 @@ async function sendMessage() {
     <!-- Título -->
     <div class="flex flex-col gap-2 mb-16 items-center">
       <h2 class="text-4xl font-bold text-text-primary">
-        Do you like my work?
+        ¿Te gusta mi trabajo?
       </h2>
       <div class="w-16 h-1 bg-accent rounded-full" />
     </div>
@@ -74,11 +74,11 @@ async function sendMessage() {
 
       <!-- Name -->
       <div class="flex flex-col gap-2">
-        <label class="text-text-primary text-sm font-medium">Name *</label>
+        <label class="text-text-primary text-sm font-medium">Nombre *</label>
         <input
           v-model="name"
           type="text"
-          placeholder="Your name"
+          placeholder="Tu nombre"
           class="bg-transparent border border-white/20 rounded-lg px-4 py-3 text-text-primary placeholder-text-secondary/50 focus:outline-none focus:border-accent transition-colors duration-200"
         />
       </div>
@@ -89,7 +89,7 @@ async function sendMessage() {
         <input
           v-model="email"
           type="email"
-          placeholder="Your e-mail"
+          placeholder="Tu e-mail"
           class="bg-transparent border border-white/20 rounded-lg px-4 py-3 text-text-primary placeholder-text-secondary/50 focus:outline-none focus:border-accent transition-colors duration-200"
         />
       </div>
@@ -97,13 +97,13 @@ async function sendMessage() {
       <!-- Message -->
       <div class="flex flex-col gap-2">
         <div class="flex justify-between items-center">
-          <label class="text-text-primary text-sm font-medium">Message *</label>
+          <label class="text-text-primary text-sm font-medium">Mensaje *</label>
           <span class="text-text-secondary text-xs">{{ messageCount }} / {{ maxChars }}</span>
         </div>
         <textarea
           v-model="message"
           :maxlength="maxChars"
-          placeholder="Your message"
+          placeholder="Tu mensaje"
           rows="6"
           class="bg-transparent border border-white/20 rounded-lg px-4 py-3 text-text-primary placeholder-text-secondary/50 focus:outline-none focus:border-accent transition-colors duration-200 resize-none"
         />
@@ -116,7 +116,7 @@ async function sendMessage() {
           :disabled="loading"
           class="flex items-center justify-center gap-2 bg-accent text-white px-6 py-3 rounded-lg font-medium hover:bg-accent/80 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <span>{{ loading ? 'Sending...' : 'Send Message' }}</span>
+          <span>{{ loading ? 'Enviando...' : 'Enviar Mensaje' }}</span>
           <Icon icon="mynaui:send-solid" :size="16" />
         </button>
         <span

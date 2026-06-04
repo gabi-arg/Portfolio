@@ -2,7 +2,6 @@
 interface Experience {
   id: number
   company: string
-  logo: string
   role: string
   type: string
   period: string
@@ -16,7 +15,6 @@ const experiences: Experience[] = [
   {
     id: 1,
     company: 'MailTeck Group',
-    logo: './public/logoMailTeck.jpg',
     role: 'Frontend Developer - QA',
     type: 'Tiempo Completo',
     period: 'Noviembre 2025 - Abril 2026',
@@ -35,7 +33,6 @@ const experiences: Experience[] = [
   {
     id: 2,
     company: 'Social Learning',
-    logo: './public/logoSocialLearning.jpg',
     role: 'Frontend Developer Jr',
     type: 'Tiempo Completo',
     period: 'Junio 2024 - Marzo 2025',
@@ -53,7 +50,6 @@ const experiences: Experience[] = [
   {
     id: 3,
     company: 'Teclab Instituto Técnico Superior',
-    logo: './public/logoSocialLearning.jpg',
     role: 'Frontend Developer - Pasante',
     type: 'Pasantía',
     period: 'Abril - Mayo 2024',
@@ -73,7 +69,7 @@ const experiences: Experience[] = [
 
     <!-- Título sección -->
     <div class="flex flex-col gap-2 mb-16 items-center">
-      <h2 class="text-4xl font-bold text-text-primary">Experience</h2>
+      <h2 class="text-4xl font-bold text-text-primary">Experiencia</h2>
       <div class="w-16 h-1 bg-accent rounded-full" />
     </div>
 
@@ -111,7 +107,6 @@ const experiences: Experience[] = [
                 <h3 class="text-xl font-bold text-text-primary">{{ exp.company }}</h3>
                 <span class="text-text-secondary text-xs">( {{ exp.type }} )</span>
               </div>
-              <img :src="exp.logo" :alt="exp.company" class="w-14 h-14 object-contain rounded-lg bg-white/5 p-1" />
             </div>
 
             <!-- Badge rol + duración -->

@@ -16,7 +16,7 @@ const certificates: Certificate[] = [
     id: 1,
     title: 'Técnico en Programación',
     institute: 'Teclab Instituto Técnico Superior',
-    year: '2024',
+    year: '2022 -2024',
     link: certTitulo,
   }
 ]
@@ -27,7 +27,7 @@ const certificates: Certificate[] = [
 
     <!-- Título sección -->
     <div class="flex flex-col gap-2 mb-16 items-center">
-      <h2 class="text-4xl font-bold text-text-primary">Certifications & Education</h2>
+      <h2 class="text-4xl font-bold text-text-primary">Certificaciones</h2>
       <div class="w-16 h-1 bg-accent rounded-full" />
     </div>
 

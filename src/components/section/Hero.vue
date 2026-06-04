@@ -27,11 +27,11 @@ import CVFile from '../../assets/CV-GABRIELADURAN.pdf?url'
         <!-- Botones -->
         <div class="flex mt-4 items-center gap-4">
           <a href="#contact" class="bg-accent text-white px-6 py-2 rounded-md font-medium hover:bg-accent/80 transition-colors duration-200">
-            Contact me
+            Contactame
           </a>
           <a :href="CVFile" download="CV-GABRIELADURAN.pdf"
             class="text-text-primary px-6 py-2 font-medium rounded-md hover:bg-text-secondary/20 transition-colors duration-200">
-            Download CV
+            Descargar CV
           </a>
         </div>
 

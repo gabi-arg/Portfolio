@@ -12,10 +12,10 @@ const emit = defineEmits<{
 
 const navItems = [
   { id: 'home',       icon: Home,       label: 'Home' },
-  { id: 'experience', icon: Briefcase,  label: 'Experience' },
+  { id: 'experience', icon: Briefcase,  label: 'Experiencia' },
  // { id: 'projects',   icon: FolderGit2, label: 'Projects' },
-  { id: 'certifications',   icon: ShieldCheck, label: 'Certifications & Education' },
-  { id: 'contact',    icon: Mail,       label: 'Contact' },
+  { id: 'certifications',   icon: ShieldCheck, label: 'Certificaciones' },
+  { id: 'contact',    icon: Mail,       label: 'Contactame' },
 ]
 
 const scrollToSection = (id: string) => {
